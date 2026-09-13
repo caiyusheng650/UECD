@@ -1,0 +1,6 @@
+UECD prediction summary: 2026-09-13 23:35:50
+======================================================================
+best test accuracy: 0.631152 @ epoch 29
+best test auc:      0.643559 @ epoch 29
+per-epoch metrics: test_metrics.csv
+full console log:  run.log

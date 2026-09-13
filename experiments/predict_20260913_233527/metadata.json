@@ -1,0 +1,12 @@
+{
+  "run_name": "predict_20260913_233527",
+  "start_time": "2026-09-13 23:35:27",
+  "topk": 20,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121"
+}

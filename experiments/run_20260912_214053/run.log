@@ -1,0 +1,74 @@
+======================================================================
+experiment run: experiments\run_20260912_214053
+{
+  "run_name": "run_20260912_214053",
+  "start_time": "2026-09-12 21:40:53",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 70,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+[1,   200] loss: 1.229
+[1,   400] loss: 0.660
+[1,   600] loss: 0.659
+[1,   800] loss: 0.655
+[1,  1000] loss: 0.660
+[1,  1200] loss: 0.653
+[1,  1400] loss: 0.648
+[1,  1600] loss: 0.656
+[1,  1800] loss: 0.656
+[1,  2000] loss: 0.656
+[1,  2200] loss: 0.654
+[1,  2400] loss: 0.650
+[1,  2600] loss: 0.658
+[1,  2800] loss: 0.658
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 1, accuracy= 0.642498, rmse= 0.480362, auc= 0.695204
+[Epoch 1] time 4249.45s (avg 4249.45s, total 70.8min) | train_loss 0.695180 | val acc 0.642498 rmse 0.480362 auc 0.695204
+[2,   200] loss: 0.654
+[2,   400] loss: 0.661
+[2,   600] loss: 0.659
+[2,   800] loss: 0.655
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 414, in <module>
+    # global student_n, exer_n, knowledge_n, device
+    ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 247, in train
+    while not data_loader.is_end():
+                                   ^
+  File "C:\Users\Administrator\Desktop\UECD\model.py", line 326, in item_sim_sample
+    inter_item, can_item = self.item_similarity(pos_ids[i],neg_ids[i],topk,device)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\UECD\model.py", line 287, in item_similarity
+    sim_score = (F.softmax(dif_score, dim=-1) + F.softmax(dis_score, dim=-1)) / 2
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\fx\traceback.py", line 72, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\traceback.py", line 232, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\traceback.py", line 395, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\traceback.py", line 434, in _extract_from_extended_frame_gen
+    linecache.checkcache(filename)
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\linecache.py", line 75, in checkcache
+    stat = os.stat(fullname)
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

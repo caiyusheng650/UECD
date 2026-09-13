@@ -1,0 +1,117 @@
+======================================================================
+experiment run: experiments\run_20260912_233205
+{
+  "run_name": "run_20260912_233205",
+  "start_time": "2026-09-12 23:32:05",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 600,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+[Epoch 1] time 1.99s (avg 1.99s, total 0.0min) | train_loss 10.655100 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 2] time 1.54s (avg 1.77s, total 0.1min) | train_loss 3.080845 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 3] time 1.50s (avg 1.68s, total 0.1min) | train_loss 2.895324 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 4] time 1.52s (avg 1.64s, total 0.1min) | train_loss 2.760121 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 5] time 1.56s (avg 1.62s, total 0.1min) | train_loss 2.540501 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 6] time 1.54s (avg 1.61s, total 0.2min) | train_loss 2.347765 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 7] time 1.55s (avg 1.60s, total 0.2min) | train_loss 2.158808 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 8] time 1.66s (avg 1.61s, total 0.2min) | train_loss 1.949264 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 9] time 1.59s (avg 1.61s, total 0.2min) | train_loss 1.788044 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 10] time 1.63s (avg 1.61s, total 0.3min) | train_loss 1.575413 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 11] time 1.65s (avg 1.61s, total 0.3min) | train_loss 1.426806 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 12] time 1.78s (avg 1.63s, total 0.3min) | train_loss 1.289676 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 13] time 1.82s (avg 1.64s, total 0.4min) | train_loss 1.173454 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 14] time 1.69s (avg 1.65s, total 0.4min) | train_loss 1.060297 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 15] time 1.59s (avg 1.64s, total 0.4min) | train_loss 0.963811 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 16] time 1.58s (avg 1.64s, total 0.4min) | train_loss 0.915718 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 17] time 1.61s (avg 1.64s, total 0.5min) | train_loss 0.866000 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 18] time 1.66s (avg 1.64s, total 0.5min) | train_loss 0.830890 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 19] time 1.71s (avg 1.64s, total 0.5min) | train_loss 0.803802 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 20] time 1.66s (avg 1.64s, total 0.5min) | train_loss 0.776487 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 21] time 1.61s (avg 1.64s, total 0.6min) | train_loss 0.760931 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 22] time 1.68s (avg 1.64s, total 0.6min) | train_loss 0.752844 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 23] time 1.55s (avg 1.64s, total 0.6min) | train_loss 0.732707 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 24] time 1.67s (avg 1.64s, total 0.7min) | train_loss 0.721328 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 25] time 1.61s (avg 1.64s, total 0.7min) | train_loss 0.706560 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 26] time 1.56s (avg 1.64s, total 0.7min) | train_loss 0.706437 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 27] time 1.54s (avg 1.63s, total 0.7min) | train_loss 0.704870 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 28] time 1.54s (avg 1.63s, total 0.8min) | train_loss 0.692796 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 29] time 1.52s (avg 1.63s, total 0.8min) | train_loss 0.697589 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 30] time 1.70s (avg 1.63s, total 0.8min) | train_loss 0.690293 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 31] time 1.60s (avg 1.63s, total 0.8min) | train_loss 0.686122 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 32] time 1.71s (avg 1.63s, total 0.9min) | train_loss 0.684297 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 33] time 1.57s (avg 1.63s, total 0.9min) | train_loss 0.686567 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 34] time 1.50s (avg 1.62s, total 0.9min) | train_loss 0.677328 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 35] time 1.58s (avg 1.62s, total 0.9min) | train_loss 0.676950 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 36] time 1.50s (avg 1.62s, total 1.0min) | train_loss 0.671906 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 37] time 1.56s (avg 1.62s, total 1.0min) | train_loss 0.674178 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 38] time 1.75s (avg 1.62s, total 1.0min) | train_loss 0.672084 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 39] time 1.59s (avg 1.62s, total 1.1min) | train_loss 0.667168 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 40] time 1.58s (avg 1.62s, total 1.1min) | train_loss 0.668471 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 41] time 1.76s (avg 1.62s, total 1.1min) | train_loss 0.667775 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 42] time 1.57s (avg 1.62s, total 1.1min) | train_loss 0.669937 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 43] time 1.55s (avg 1.62s, total 1.2min) | train_loss 0.669816 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 44] time 1.57s (avg 1.62s, total 1.2min) | train_loss 0.669167 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 45] time 1.60s (avg 1.62s, total 1.2min) | train_loss 0.665579 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 46] time 1.60s (avg 1.62s, total 1.2min) | train_loss 0.666038 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 47] time 1.56s (avg 1.62s, total 1.3min) | train_loss 0.664263 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 48] time 1.53s (avg 1.61s, total 1.3min) | train_loss 0.663417 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 49] time 1.55s (avg 1.61s, total 1.3min) | train_loss 0.664523 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 50] time 1.56s (avg 1.61s, total 1.3min) | train_loss 0.668686 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 51] time 1.56s (avg 1.61s, total 1.4min) | train_loss 0.661791 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 52] time 1.58s (avg 1.61s, total 1.4min) | train_loss 0.662347 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 53] time 1.55s (avg 1.61s, total 1.4min) | train_loss 0.660450 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 54] time 1.57s (avg 1.61s, total 1.4min) | train_loss 0.663362 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 55] time 1.56s (avg 1.61s, total 1.5min) | train_loss 0.665901 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 56] time 1.53s (avg 1.61s, total 1.5min) | train_loss 0.660267 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 57] time 1.54s (avg 1.61s, total 1.5min) | train_loss 0.665441 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 58] time 1.74s (avg 1.61s, total 1.6min) | train_loss 0.661885 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 59] time 1.64s (avg 1.61s, total 1.6min) | train_loss 0.659105 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 60] time 1.58s (avg 1.61s, total 1.6min) | train_loss 0.659057 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 61] time 1.59s (avg 1.61s, total 1.6min) | train_loss 0.664076 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 62] time 1.57s (avg 1.61s, total 1.7min) | train_loss 0.662119 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 63] time 1.63s (avg 1.61s, total 1.7min) | train_loss 0.663330 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 64] time 1.60s (avg 1.61s, total 1.7min) | train_loss 0.659234 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 65] time 1.60s (avg 1.61s, total 1.7min) | train_loss 0.663095 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 66] time 1.59s (avg 1.61s, total 1.8min) | train_loss 0.660268 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 67] time 1.69s (avg 1.61s, total 1.8min) | train_loss 0.661866 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 68] time 1.58s (avg 1.61s, total 1.8min) | train_loss 0.661605 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 69] time 1.58s (avg 1.61s, total 1.8min) | train_loss 0.662435 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 70] time 1.64s (avg 1.61s, total 1.9min) | train_loss 0.659825 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 71] time 1.62s (avg 1.61s, total 1.9min) | train_loss 0.663547 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[Epoch 72] time 1.60s (avg 1.61s, total 1.9min) | train_loss 0.664193 | val acc -1.000000 rmse -1.000000 auc -1.000000
+Traceback (most recent call last):
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\serialization.py", line 850, in save
+    _save(
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\serialization.py", line 1114, in _save
+    zip_file.write_record(name, storage, num_bytes)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 425, in <module>
+    train(device)
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 342, in train
+    save_snapshot(net, 'model/NCDM_UECD_epoch' + str(epoch + 1))
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 407, in save_snapshot
+    torch.save(model.state_dict(), f)
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\serialization.py", line 706, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:603] . unexpected pos 2432 vs 2326

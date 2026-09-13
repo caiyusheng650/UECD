@@ -1,0 +1,2 @@
+epoch,start_time,end_time,duration_s,avg_duration_s,total_time_min,batch_count,avg_train_loss,val_accuracy,val_rmse,val_auc
+1,1970-01-02 08:13:43,1970-01-02 09:24:32,4249.45,4249.45,70.82,2934,0.69518,0.642498,0.480362,0.695204

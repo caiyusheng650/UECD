@@ -1,0 +1,208 @@
+======================================================================
+experiment run: experiments\run_20260913_165532
+{
+  "run_name": "run_20260913_165532",
+  "start_time": "2026-09-13 16:55:33",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 30,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+[1,   200] loss: 1.214
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 1, accuracy= 0.645210, rmse= 0.478480, auc= 0.558840
+[Epoch 1] time 108.80s (avg 108.80s, total 1.8min) | train_loss 1.039355 | val acc 0.645210 rmse 0.478480 auc 0.558840
+[2,   200] loss: 0.652
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 2, accuracy= 0.645210, rmse= 0.478456, auc= 0.598441
+[Epoch 2] time 103.87s (avg 106.34s, total 3.5min) | train_loss 0.655773 | val acc 0.645210 rmse 0.478456 auc 0.598441
+[3,   200] loss: 0.652
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 3, accuracy= 0.645210, rmse= 0.478454, auc= 0.613239
+[Epoch 3] time 104.55s (avg 105.74s, total 5.3min) | train_loss 0.655278 | val acc 0.645210 rmse 0.478454 auc 0.613239
+[4,   200] loss: 0.651
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 4, accuracy= 0.645210, rmse= 0.478466, auc= 0.631365
+[Epoch 4] time 103.27s (avg 105.12s, total 7.0min) | train_loss 0.655029 | val acc 0.645210 rmse 0.478466 auc 0.631365
+[5,   200] loss: 0.651
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 5, accuracy= 0.645210, rmse= 0.478449, auc= 0.663355
+[Epoch 5] time 102.98s (avg 104.70s, total 8.7min) | train_loss 0.654983 | val acc 0.645210 rmse 0.478449 auc 0.663355
+[6,   200] loss: 0.650
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 6, accuracy= 0.645210, rmse= 0.477530, auc= 0.681200
+[Epoch 6] time 103.90s (avg 104.56s, total 10.5min) | train_loss 0.653265 | val acc 0.645210 rmse 0.477530 auc 0.681200
+[7,   200] loss: 0.640
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 7, accuracy= 0.645210, rmse= 0.472092, auc= 0.683782
+[Epoch 7] time 103.54s (avg 104.42s, total 12.2min) | train_loss 0.638768 | val acc 0.645210 rmse 0.472092 auc 0.683782
+[8,   200] loss: 0.597
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 8, accuracy= 0.647438, rmse= 0.462525, auc= 0.684209
+[Epoch 8] time 103.07s (avg 104.25s, total 13.9min) | train_loss 0.588930 | val acc 0.647438 rmse 0.462525 auc 0.684209
+[9,   200] loss: 0.517
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 9, accuracy= 0.673584, rmse= 0.456994, auc= 0.685280
+[Epoch 9] time 103.54s (avg 104.17s, total 15.6min) | train_loss 0.506895 | val acc 0.673584 rmse 0.456994 auc 0.685280
+[10,   200] loss: 0.432
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 10, accuracy= 0.683198, rmse= 0.458936, auc= 0.684793
+[Epoch 10] time 103.77s (avg 104.13s, total 17.4min) | train_loss 0.423413 | val acc 0.683198 rmse 0.458936 auc 0.684793
+[11,   200] loss: 0.362
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 11, accuracy= 0.671122, rmse= 0.465209, auc= 0.682724
+[Epoch 11] time 106.18s (avg 104.32s, total 19.1min) | train_loss 0.354197 | val acc 0.671122 rmse 0.465209 auc 0.682724
+[12,   200] loss: 0.302
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 12, accuracy= 0.664556, rmse= 0.473360, auc= 0.678718
+[Epoch 12] time 107.56s (avg 104.59s, total 20.9min) | train_loss 0.296989 | val acc 0.664556 rmse 0.473360 auc 0.678718
+[13,   200] loss: 0.255
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 13, accuracy= 0.661039, rmse= 0.482159, auc= 0.673697
+[Epoch 13] time 103.84s (avg 104.53s, total 22.6min) | train_loss 0.251414 | val acc 0.661039 rmse 0.482159 auc 0.673697
+[14,   200] loss: 0.219
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 14, accuracy= 0.651894, rmse= 0.490874, auc= 0.668888
+[Epoch 14] time 104.76s (avg 104.55s, total 24.4min) | train_loss 0.215946 | val acc 0.651894 rmse 0.490874 auc 0.668888
+[15,   200] loss: 0.189
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 15, accuracy= 0.644155, rmse= 0.498736, auc= 0.665114
+[Epoch 15] time 105.74s (avg 104.63s, total 26.2min) | train_loss 0.187146 | val acc 0.644155 rmse 0.498736 auc 0.665114
+[16,   200] loss: 0.165
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 16, accuracy= 0.645093, rmse= 0.506143, auc= 0.660741
+[Epoch 16] time 105.40s (avg 104.67s, total 27.9min) | train_loss 0.164734 | val acc 0.645093 rmse 0.506143 auc 0.660741
+[17,   200] loss: 0.148
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 17, accuracy= 0.638176, rmse= 0.512893, auc= 0.657558
+[Epoch 17] time 103.76s (avg 104.62s, total 29.6min) | train_loss 0.146747 | val acc 0.638176 rmse 0.512893 auc 0.657558
+[18,   200] loss: 0.132
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 18, accuracy= 0.637120, rmse= 0.517972, auc= 0.655249
+[Epoch 18] time 103.65s (avg 104.57s, total 31.4min) | train_loss 0.131932 | val acc 0.637120 rmse 0.517972 auc 0.655249
+[19,   200] loss: 0.120
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 19, accuracy= 0.636534, rmse= 0.522720, auc= 0.653098
+[Epoch 19] time 104.52s (avg 104.56s, total 33.1min) | train_loss 0.120352 | val acc 0.636534 rmse 0.522720 auc 0.653098
+[20,   200] loss: 0.110
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 20, accuracy= 0.635362, rmse= 0.526842, auc= 0.651037
+[Epoch 20] time 101.34s (avg 104.40s, total 34.8min) | train_loss 0.110385 | val acc 0.635362 rmse 0.526842 auc 0.651037
+[21,   200] loss: 0.100
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 21, accuracy= 0.632079, rmse= 0.531512, auc= 0.649762
+[Epoch 21] time 102.03s (avg 104.29s, total 36.5min) | train_loss 0.100574 | val acc 0.632079 rmse 0.531512 auc 0.649762
+[22,   200] loss: 0.092
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 22, accuracy= 0.630437, rmse= 0.535194, auc= 0.647958
+[Epoch 22] time 99.81s (avg 104.09s, total 38.2min) | train_loss 0.092701 | val acc 0.630437 rmse 0.535194 auc 0.647958
+[23,   200] loss: 0.087
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 23, accuracy= 0.633134, rmse= 0.537422, auc= 0.646348
+[Epoch 23] time 99.97s (avg 103.91s, total 39.8min) | train_loss 0.087014 | val acc 0.633134 rmse 0.537422 auc 0.646348
+[24,   200] loss: 0.081
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 24, accuracy= 0.629499, rmse= 0.541770, auc= 0.645236
+[Epoch 24] time 101.17s (avg 103.79s, total 41.5min) | train_loss 0.081520 | val acc 0.629499 rmse 0.541770 auc 0.645236
+[25,   200] loss: 0.076
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 25, accuracy= 0.628092, rmse= 0.544895, auc= 0.643996
+[Epoch 25] time 99.65s (avg 103.63s, total 43.2min) | train_loss 0.076459 | val acc 0.628092 rmse 0.544895 auc 0.643996
+[26,   200] loss: 0.070
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 26, accuracy= 0.627506, rmse= 0.546775, auc= 0.643688
+[Epoch 26] time 99.69s (avg 103.48s, total 44.8min) | train_loss 0.071277 | val acc 0.627506 rmse 0.546775 auc 0.643688
+[27,   200] loss: 0.068
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 27, accuracy= 0.621761, rmse= 0.550459, auc= 0.642656
+[Epoch 27] time 99.42s (avg 103.33s, total 46.5min) | train_loss 0.069468 | val acc 0.621761 rmse 0.550459 auc 0.642656
+[28,   200] loss: 0.065
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 28, accuracy= 0.627506, rmse= 0.550322, auc= 0.642236
+[Epoch 28] time 98.96s (avg 103.17s, total 48.1min) | train_loss 0.065581 | val acc 0.627506 rmse 0.550322 auc 0.642236
+[29,   200] loss: 0.061
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 29, accuracy= 0.629265, rmse= 0.551211, auc= 0.641504
+[Epoch 29] time 99.35s (avg 103.04s, total 49.8min) | train_loss 0.061166 | val acc 0.629265 rmse 0.551211 auc 0.641504
+[30,   200] loss: 0.058
+loading data\overfit_val_small.json ...
+loaded 1774 validation groups
+validating model...
+epoch= 30, accuracy= 0.628444, rmse= 0.553029, auc= 0.640621
+[Epoch 30] time 99.55s (avg 102.92s, total 51.5min) | train_loss 0.057992 | val acc 0.628444 rmse 0.553029 auc 0.640621
+
+Training Time Summary:
+Total: 51.46 minutes
+Mean per epoch: 102.92±2.54 seconds
+summary written to experiments\run_20260913_165532\summary.txt

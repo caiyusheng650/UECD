@@ -1,0 +1,54 @@
+======================================================================
+experiment run: experiments\run_20260912_232514
+{
+  "run_name": "run_20260912_232514",
+  "start_time": "2026-09-12 23:25:14",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 60,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 1, accuracy= 0.642498, rmse= 0.597790, auc= 0.500000
+[Epoch 1] time 2.12s (avg 2.12s, total 0.0min) | train_loss 10.655100 | val acc 0.642498 rmse 0.597790 auc 0.500000
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 2, accuracy= 0.642498, rmse= 0.597711, auc= 0.501620
+[Epoch 2] time 1.64s (avg 1.88s, total 0.1min) | train_loss 3.080845 | val acc 0.642498 rmse 0.597711 auc 0.501620
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 3, accuracy= 0.642498, rmse= 0.597584, auc= 0.500927
+[Epoch 3] time 1.82s (avg 1.86s, total 0.1min) | train_loss 2.895324 | val acc 0.642498 rmse 0.597584 auc 0.500927
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 421, in <module>
+    train(device)
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 303, in train
+    acc, rmse, auc = validate(net, epoch,device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\UECD\train.py", line 372, in validate
+    input_stu_ids, input_exer_ids, input_knowledge_embs, labels = data_loader.next_batch()
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\UECD\data_loader.py", line 458, in next_batch
+    ys.append(y)
+                 
+KeyboardInterrupt

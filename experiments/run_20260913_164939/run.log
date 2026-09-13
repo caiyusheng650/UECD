@@ -1,0 +1,42 @@
+======================================================================
+experiment run: experiments\run_20260913_164939
+{
+  "run_name": "run_20260913_164939",
+  "start_time": "2026-09-13 16:49:39",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 30,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+[1,   200] loss: 1.214
+[Epoch 1] time 104.91s (avg 104.91s, total 1.7min) | train_loss 1.039355 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[2,   200] loss: 0.652
+[Epoch 2] time 107.13s (avg 106.02s, total 3.5min) | train_loss 0.655773 | val acc -1.000000 rmse -1.000000 auc -1.000000
+[3,   200] loss: 0.652
+[Epoch 3] time 107.17s (avg 106.40s, total 5.3min) | train_loss 0.655278 | val acc -1.000000 rmse -1.000000 auc -1.000000
+Traceback (most recent call last):
+  File "E:\UECD\train.py", line 438, in <module>
+    train(device)
+  File "E:\UECD\train.py", line 278, in train
+    loss.backward()
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

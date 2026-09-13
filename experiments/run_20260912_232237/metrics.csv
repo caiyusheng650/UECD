@@ -1,0 +1,1 @@
+epoch,start_time,end_time,duration_s,avg_duration_s,total_time_min,batch_count,avg_train_loss,val_accuracy,val_rmse,val_auc

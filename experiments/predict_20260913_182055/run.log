@@ -1,0 +1,27 @@
+======================================================================
+prediction run: experiments\predict_20260913_182055
+{
+  "run_name": "predict_20260913_182055",
+  "start_time": "2026-09-13 18:20:55",
+  "topk": 20,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "32d26c703120f923ed7942c169331091620e3a76",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121"
+}
+======================================================================
+loading data/Eedi/test_set.json ...
+loaded 17740 test groups
+testing model...
+Traceback (most recent call last):
+  File "E:\UECD\predict.py", line 202, in <module>
+    test()
+  File "E:\UECD\predict.py", line 125, in test
+    load_snapshot(net, 'model/NCDM_UECD_epoch' + str(epoch))
+  File "E:\UECD\predict.py", line 188, in load_snapshot
+    f = open(filename, 'rb')
+        ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'model/NCDM_UECD_epoch1'

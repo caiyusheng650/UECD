@@ -1,0 +1,9 @@
+UECD training summary: 2026-09-12 23:29:49
+======================================================================
+epochs planned/run: 60 / 60
+total time: 1.65 minutes
+mean per epoch: 1.65 +/- 0.10 seconds
+best validation accuracy: 0.642358 @ epoch 1
+best validation auc:      0.550675 @ epoch 16
+per-epoch metrics: metrics.csv
+full console log:   run.log

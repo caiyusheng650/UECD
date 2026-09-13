@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 
 import torch
@@ -66,11 +67,15 @@ class TrainDataLoader(object):
         self.data = []
         self.data_group = 10
 
-        data_file = 'data/neg_exer_ours.json'
+        # UECD_TRAIN_FILE lets overfit_test.py point at a tiny subset;
+        # normal training always uses data/neg_exer_ours.json.
+        data_file = os.environ.get('UECD_TRAIN_FILE', 'data/neg_exer_ours.json')
         # data_file = 'data/train_set.json'
         config_file = 'config.txt'
+        print('loading %s ...' % data_file, flush=True)
         with open(data_file, encoding='utf8') as i_f:
             self.data = json.load(i_f)
+        print('loaded %d training records' % len(self.data), flush=True)
         with open(config_file) as i_f:
             i_f.readline()
             _, _, knowledge_n = i_f.readline().split(',')
@@ -417,13 +422,17 @@ class ValTestDataLoader(object):
         self.d_type = d_type
         # self.exer_knowledge_data, self.kn_max_length = self.load_data_from_csv('item.csv')
 
+        # UECD_VAL_FILE lets the overfit sanity check validate on a tiny
+        # subset instead of the full val set; normal runs use the real file.
         if d_type == 'validation':
-            data_file = 'data/Eedi/val_set.json'
+            data_file = os.environ.get('UECD_VAL_FILE', 'data/Eedi/val_set.json')
         else:
             data_file = 'data/Eedi/test_set.json'
         config_file = 'config_Eedi.txt'
+        print('loading %s ...' % data_file, flush=True)
         with open(data_file, encoding='utf8') as i_f:
             self.data = json.load(i_f)
+        print('loaded %d %s groups' % (len(self.data), d_type), flush=True)
         with open(config_file) as i_f:
             i_f.readline()
             _, _, knowledge_n = i_f.readline().split(',')

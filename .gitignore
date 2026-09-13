@@ -1,0 +1,50 @@
+# ---------- Large-scale data ----------
+# Raw NeurIPS 2020 / Eedi CSVs (~1.4GB) and all generated json datasets.
+# Regenerate with: python preprocess_eedi.py build
+data/*
+!data/.gitkeep
+
+# Trained model checkpoints
+model/*
+!model/.gitkeep
+
+# Evaluation scratch outputs (per-epoch experiment records live in
+# tracked experiments/ instead)
+result/*
+!result/.gitkeep
+
+# Experiment records under experiments/ ARE tracked on purpose
+# (metadata.json, metrics.csv, run.log, summary.txt are small text files)
+
+# Temp files (e.g. atomic-write leftovers like neg_exer_ours.json.tmp)
+*.tmp
+
+# Model / archive artifacts anywhere in the repo
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

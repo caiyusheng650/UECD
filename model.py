@@ -54,7 +54,10 @@ class Net(nn.Module):
             if 'weight' in name:
                 nn.init.xavier_normal_(param)
 
-        self.multi_attention = MultiHeadAttention(self.knowledge_dim, 2)
+        # 2 heads require an even knowledge dim (author Eedi setting: 286);
+        # fall back to 1 head when the dim is odd (e.g. 281 from our filtering)
+        attn_heads = 2 if self.knowledge_dim % 2 == 0 else 1
+        self.multi_attention = MultiHeadAttention(self.knowledge_dim, attn_heads)
         self.lr = 0.001
 
     def sinusoidal_positional_encoding(self, inputs):
