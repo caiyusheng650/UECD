@@ -1,0 +1,684 @@
+======================================================================
+experiment run: experiments\run_20260920_145735
+{
+  "run_name": "run_20260920_145735",
+  "start_time": "2026-09-20 14:57:35",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 70,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "2edf28c374cfd45f1898955703eafb8d5311debc",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
+======================================================================
+training model...
+[1,   200] loss: 1.229
+[1,   400] loss: 0.660
+[1,   600] loss: 0.659
+[1,   800] loss: 0.655
+[1,  1000] loss: 0.660
+[1,  1200] loss: 0.653
+[1,  1400] loss: 0.648
+[1,  1600] loss: 0.656
+[1,  1800] loss: 0.656
+[1,  2000] loss: 0.656
+[1,  2200] loss: 0.654
+[1,  2400] loss: 0.650
+[1,  2600] loss: 0.658
+[1,  2800] loss: 0.658
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 1, accuracy= 0.642498, rmse= 0.480362, auc= 0.695204
+[Epoch 1] time 1714.74s (avg 1714.74s, total 28.6min) | train_loss 0.695180 | val acc 0.642498 rmse 0.480362 auc 0.695204
+[2,   200] loss: 0.654
+[2,   400] loss: 0.661
+[2,   600] loss: 0.659
+[2,   800] loss: 0.655
+[2,  1000] loss: 0.660
+[2,  1200] loss: 0.653
+[2,  1400] loss: 0.648
+[2,  1600] loss: 0.656
+[2,  1800] loss: 0.656
+[2,  2000] loss: 0.656
+[2,  2200] loss: 0.654
+[2,  2400] loss: 0.650
+[2,  2600] loss: 0.655
+[2,  2800] loss: 0.652
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 2, accuracy= 0.642498, rmse= 0.473209, auc= 0.702251
+[Epoch 2] time 1608.59s (avg 1661.66s, total 55.4min) | train_loss 0.654997 | val acc 0.642498 rmse 0.473209 auc 0.702251
+[3,   200] loss: 0.641
+[3,   400] loss: 0.639
+[3,   600] loss: 0.631
+[3,   800] loss: 0.621
+[3,  1000] loss: 0.622
+[3,  1200] loss: 0.609
+[3,  1400] loss: 0.602
+[3,  1600] loss: 0.609
+[3,  1800] loss: 0.603
+[3,  2000] loss: 0.602
+[3,  2200] loss: 0.595
+[3,  2400] loss: 0.590
+[3,  2600] loss: 0.593
+[3,  2800] loss: 0.595
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 3, accuracy= 0.677089, rmse= 0.449445, auc= 0.717172
+[Epoch 3] time 1069.28s (avg 1464.20s, total 73.2min) | train_loss 0.610278 | val acc 0.677089 rmse 0.449445 auc 0.717172
+[4,   200] loss: 0.589
+[4,   400] loss: 0.592
+[4,   600] loss: 0.588
+[4,   800] loss: 0.578
+[4,  1000] loss: 0.584
+[4,  1200] loss: 0.571
+[4,  1400] loss: 0.566
+[4,  1600] loss: 0.575
+[4,  1800] loss: 0.566
+[4,  2000] loss: 0.566
+[4,  2200] loss: 0.559
+[4,  2400] loss: 0.553
+[4,  2600] loss: 0.556
+[4,  2800] loss: 0.557
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 4, accuracy= 0.698612, rmse= 0.438831, auc= 0.745234
+[Epoch 4] time 1036.51s (avg 1357.28s, total 90.5min) | train_loss 0.570693 | val acc 0.698612 rmse 0.438831 auc 0.745234
+[5,   200] loss: 0.548
+[5,   400] loss: 0.548
+[5,   600] loss: 0.540
+[5,   800] loss: 0.528
+[5,  1000] loss: 0.531
+[5,  1200] loss: 0.516
+[5,  1400] loss: 0.510
+[5,  1600] loss: 0.515
+[5,  1800] loss: 0.504
+[5,  2000] loss: 0.504
+[5,  2200] loss: 0.491
+[5,  2400] loss: 0.485
+[5,  2600] loss: 0.488
+[5,  2800] loss: 0.490
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 5, accuracy= 0.718144, rmse= 0.431115, auc= 0.765483
+[Epoch 5] time 1120.34s (avg 1309.89s, total 109.2min) | train_loss 0.512630 | val acc 0.718144 rmse 0.431115 auc 0.765483
+[6,   200] loss: 0.473
+[6,   400] loss: 0.473
+[6,   600] loss: 0.470
+[6,   800] loss: 0.454
+[6,  1000] loss: 0.457
+[6,  1200] loss: 0.444
+[6,  1400] loss: 0.440
+[6,  1600] loss: 0.445
+[6,  1800] loss: 0.433
+[6,  2000] loss: 0.435
+[6,  2200] loss: 0.424
+[6,  2400] loss: 0.424
+[6,  2600] loss: 0.423
+[6,  2800] loss: 0.431
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 6, accuracy= 0.715372, rmse= 0.438019, auc= 0.763058
+[Epoch 6] time 1055.03s (avg 1267.41s, total 126.7min) | train_loss 0.443687 | val acc 0.715372 rmse 0.438019 auc 0.763058
+[7,   200] loss: 0.413
+[7,   400] loss: 0.418
+[7,   600] loss: 0.414
+[7,   800] loss: 0.402
+[7,  1000] loss: 0.402
+[7,  1200] loss: 0.391
+[7,  1400] loss: 0.391
+[7,  1600] loss: 0.394
+[7,  1800] loss: 0.385
+[7,  2000] loss: 0.390
+[7,  2200] loss: 0.377
+[7,  2400] loss: 0.380
+[7,  2600] loss: 0.381
+[7,  2800] loss: 0.389
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 7, accuracy= 0.712841, rmse= 0.448373, auc= 0.754201
+[Epoch 7] time 1151.03s (avg 1250.79s, total 145.9min) | train_loss 0.394188 | val acc 0.712841 rmse 0.448373 auc 0.754201
+[8,   200] loss: 0.369
+[8,   400] loss: 0.381
+[8,   600] loss: 0.380
+[8,   800] loss: 0.367
+[8,  1000] loss: 0.370
+[8,  1200] loss: 0.358
+[8,  1400] loss: 0.371
+[8,  1600] loss: 0.366
+[8,  1800] loss: 0.360
+[8,  2000] loss: 0.367
+[8,  2200] loss: 0.352
+[8,  2400] loss: 0.353
+[8,  2600] loss: 0.357
+[8,  2800] loss: 0.371
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 8, accuracy= 0.708159, rmse= 0.456612, auc= 0.746176
+[Epoch 8] time 1146.12s (avg 1237.70s, total 165.0min) | train_loss 0.365707 | val acc 0.708159 rmse 0.456612 auc 0.746176
+[9,   200] loss: 0.353
+[9,   400] loss: 0.363
+[9,   600] loss: 0.361
+[9,   800] loss: 0.353
+[9,  1000] loss: 0.355
+[9,  1200] loss: 0.339
+[9,  1400] loss: 0.351
+[9,  1600] loss: 0.345
+[9,  1800] loss: 0.347
+[9,  2000] loss: 0.353
+[9,  2200] loss: 0.338
+[9,  2400] loss: 0.339
+[9,  2600] loss: 0.345
+[9,  2800] loss: 0.362
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 9, accuracy= 0.701499, rmse= 0.460171, auc= 0.740350
+[Epoch 9] time 1110.10s (avg 1223.52s, total 183.5min) | train_loss 0.350130 | val acc 0.701499 rmse 0.460171 auc 0.740350
+[10,   200] loss: 0.338
+[10,   400] loss: 0.343
+[10,   600] loss: 0.350
+[10,   800] loss: 0.343
+[10,  1000] loss: 0.337
+[10,  1200] loss: 0.328
+[10,  1400] loss: 0.331
+[10,  1600] loss: 0.330
+[10,  1800] loss: 0.331
+[10,  2000] loss: 0.340
+[10,  2200] loss: 0.326
+[10,  2400] loss: 0.326
+[10,  2600] loss: 0.334
+[10,  2800] loss: 0.351
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 10, accuracy= 0.701683, rmse= 0.463942, auc= 0.735803
+[Epoch 10] time 1090.44s (avg 1210.22s, total 201.7min) | train_loss 0.336375 | val acc 0.701683 rmse 0.463942 auc 0.735803
+[11,   200] loss: 0.327
+[11,   400] loss: 0.333
+[11,   600] loss: 0.340
+[11,   800] loss: 0.336
+[11,  1000] loss: 0.324
+[11,  1200] loss: 0.323
+[11,  1400] loss: 0.319
+[11,  1600] loss: 0.322
+[11,  1800] loss: 0.321
+[11,  2000] loss: 0.328
+[11,  2200] loss: 0.316
+[11,  2400] loss: 0.317
+[11,  2600] loss: 0.328
+[11,  2800] loss: 0.339
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 11, accuracy= 0.701315, rmse= 0.469190, auc= 0.731555
+[Epoch 11] time 1062.56s (avg 1196.79s, total 219.4min) | train_loss 0.326698 | val acc 0.701315 rmse 0.469190 auc 0.731555
+[12,   200] loss: 0.317
+[12,   400] loss: 0.327
+[12,   600] loss: 0.336
+[12,   800] loss: 0.326
+[12,  1000] loss: 0.319
+[12,  1200] loss: 0.320
+[12,  1400] loss: 0.317
+[12,  1600] loss: 0.320
+[12,  1800] loss: 0.315
+[12,  2000] loss: 0.319
+[12,  2200] loss: 0.309
+[12,  2400] loss: 0.312
+[12,  2600] loss: 0.323
+[12,  2800] loss: 0.335
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 12, accuracy= 0.700935, rmse= 0.470827, auc= 0.728724
+[Epoch 12] time 1018.50s (avg 1181.93s, total 236.4min) | train_loss 0.320982 | val acc 0.700935 rmse 0.470827 auc 0.728724
+[13,   200] loss: 0.313
+[13,   400] loss: 0.322
+[13,   600] loss: 0.331
+[13,   800] loss: 0.319
+[13,  1000] loss: 0.314
+[13,  1200] loss: 0.316
+[13,  1400] loss: 0.313
+[13,  1600] loss: 0.320
+[13,  1800] loss: 0.306
+[13,  2000] loss: 0.314
+[13,  2200] loss: 0.303
+[13,  2400] loss: 0.309
+[13,  2600] loss: 0.319
+[13,  2800] loss: 0.327
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 13, accuracy= 0.691640, rmse= 0.472815, auc= 0.727272
+[Epoch 13] time 996.32s (avg 1167.66s, total 253.0min) | train_loss 0.315930 | val acc 0.691640 rmse 0.472815 auc 0.727272
+[14,   200] loss: 0.307
+[14,   400] loss: 0.316
+[14,   600] loss: 0.326
+[14,   800] loss: 0.314
+[14,  1000] loss: 0.309
+[14,  1200] loss: 0.309
+[14,  1400] loss: 0.310
+[14,  1600] loss: 0.316
+[14,  1800] loss: 0.302
+[14,  2000] loss: 0.309
+[14,  2200] loss: 0.301
+[14,  2400] loss: 0.308
+[14,  2600] loss: 0.313
+[14,  2800] loss: 0.322
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 14, accuracy= 0.684877, rmse= 0.476682, auc= 0.725823
+[Epoch 14] time 1002.17s (avg 1155.84s, total 269.7min) | train_loss 0.311294 | val acc 0.684877 rmse 0.476682 auc 0.725823
+[15,   200] loss: 0.307
+[15,   400] loss: 0.314
+[15,   600] loss: 0.321
+[15,   800] loss: 0.307
+[15,  1000] loss: 0.306
+[15,  1200] loss: 0.304
+[15,  1400] loss: 0.308
+[15,  1600] loss: 0.310
+[15,  1800] loss: 0.299
+[15,  2000] loss: 0.305
+[15,  2200] loss: 0.298
+[15,  2400] loss: 0.305
+[15,  2600] loss: 0.309
+[15,  2800] loss: 0.317
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 15, accuracy= 0.697611, rmse= 0.474087, auc= 0.724295
+[Epoch 15] time 992.99s (avg 1144.98s, total 286.2min) | train_loss 0.307682 | val acc 0.697611 rmse 0.474087 auc 0.724295
+[16,   200] loss: 0.302
+[16,   400] loss: 0.311
+[16,   600] loss: 0.316
+[16,   800] loss: 0.305
+[16,  1000] loss: 0.302
+[16,  1200] loss: 0.300
+[16,  1400] loss: 0.304
+[16,  1600] loss: 0.307
+[16,  1800] loss: 0.296
+[16,  2000] loss: 0.303
+[16,  2200] loss: 0.296
+[16,  2400] loss: 0.305
+[16,  2600] loss: 0.304
+[16,  2800] loss: 0.312
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 16, accuracy= 0.698301, rmse= 0.475826, auc= 0.723035
+[Epoch 16] time 993.54s (avg 1135.51s, total 302.8min) | train_loss 0.304268 | val acc 0.698301 rmse 0.475826 auc 0.723035
+[17,   200] loss: 0.300
+[17,   400] loss: 0.309
+[17,   600] loss: 0.313
+[17,   800] loss: 0.302
+[17,  1000] loss: 0.300
+[17,  1200] loss: 0.299
+[17,  1400] loss: 0.300
+[17,  1600] loss: 0.303
+[17,  1800] loss: 0.293
+[17,  2000] loss: 0.303
+[17,  2200] loss: 0.293
+[17,  2400] loss: 0.302
+[17,  2600] loss: 0.303
+[17,  2800] loss: 0.311
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 17, accuracy= 0.695885, rmse= 0.476356, auc= 0.721765
+[Epoch 17] time 993.30s (avg 1127.15s, total 319.4min) | train_loss 0.301987 | val acc 0.695885 rmse 0.476356 auc 0.721765
+[18,   200] loss: 0.297
+[18,   400] loss: 0.310
+[18,   600] loss: 0.311
+[18,   800] loss: 0.300
+[18,  1000] loss: 0.299
+[18,  1200] loss: 0.298
+[18,  1400] loss: 0.299
+[18,  1600] loss: 0.301
+[18,  1800] loss: 0.291
+[18,  2000] loss: 0.301
+[18,  2200] loss: 0.291
+[18,  2400] loss: 0.301
+[18,  2600] loss: 0.300
+[18,  2800] loss: 0.308
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 18, accuracy= 0.687902, rmse= 0.479357, auc= 0.720499
+[Epoch 18] time 1012.95s (avg 1120.80s, total 336.2min) | train_loss 0.300180 | val acc 0.687902 rmse 0.479357 auc 0.720499
+[19,   200] loss: 0.296
+[19,   400] loss: 0.308
+[19,   600] loss: 0.308
+[19,   800] loss: 0.297
+[19,  1000] loss: 0.296
+[19,  1200] loss: 0.294
+[19,  1400] loss: 0.297
+[19,  1600] loss: 0.299
+[19,  1800] loss: 0.289
+[19,  2000] loss: 0.299
+[19,  2200] loss: 0.288
+[19,  2400] loss: 0.299
+[19,  2600] loss: 0.298
+[19,  2800] loss: 0.305
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 19, accuracy= 0.678239, rmse= 0.483431, auc= 0.720007
+[Epoch 19] time 992.58s (avg 1114.06s, total 352.8min) | train_loss 0.297932 | val acc 0.678239 rmse 0.483431 auc 0.720007
+[20,   200] loss: 0.294
+[20,   400] loss: 0.306
+[20,   600] loss: 0.307
+[20,   800] loss: 0.296
+[20,  1000] loss: 0.295
+[20,  1200] loss: 0.292
+[20,  1400] loss: 0.293
+[20,  1600] loss: 0.297
+[20,  1800] loss: 0.287
+[20,  2000] loss: 0.297
+[20,  2200] loss: 0.286
+[20,  2400] loss: 0.298
+[20,  2600] loss: 0.296
+[20,  2800] loss: 0.303
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 20, accuracy= 0.677020, rmse= 0.483899, auc= 0.719747
+[Epoch 20] time 1605.85s (avg 1138.65s, total 379.5min) | train_loss 0.296121 | val acc 0.677020 rmse 0.483899 auc 0.719747
+[21,   200] loss: 0.293
+[21,   400] loss: 0.304
+[21,   600] loss: 0.308
+[21,   800] loss: 0.293
+[21,  1000] loss: 0.294
+[21,  1200] loss: 0.290
+[21,  1400] loss: 0.290
+[21,  1600] loss: 0.296
+[21,  1800] loss: 0.285
+[21,  2000] loss: 0.297
+[21,  2200] loss: 0.287
+[21,  2400] loss: 0.295
+[21,  2600] loss: 0.294
+[21,  2800] loss: 0.302
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 21, accuracy= 0.686441, rmse= 0.481140, auc= 0.719206
+[Epoch 21] time 1650.54s (avg 1163.02s, total 407.1min) | train_loss 0.294662 | val acc 0.686441 rmse 0.481140 auc 0.719206
+[22,   200] loss: 0.291
+[22,   400] loss: 0.301
+[22,   600] loss: 0.304
+[22,   800] loss: 0.292
+[22,  1000] loss: 0.292
+[22,  1200] loss: 0.290
+[22,  1400] loss: 0.287
+[22,  1600] loss: 0.294
+[22,  1800] loss: 0.284
+[22,  2000] loss: 0.294
+[22,  2200] loss: 0.284
+[22,  2400] loss: 0.292
+[22,  2600] loss: 0.291
+[22,  2800] loss: 0.303
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 22, accuracy= 0.685762, rmse= 0.481566, auc= 0.719274
+[Epoch 22] time 1654.95s (avg 1185.38s, total 434.6min) | train_loss 0.292581 | val acc 0.685762 rmse 0.481566 auc 0.719274
+[23,   200] loss: 0.289
+[23,   400] loss: 0.297
+[23,   600] loss: 0.304
+[23,   800] loss: 0.290
+[23,  1000] loss: 0.288
+[23,  1200] loss: 0.287
+[23,  1400] loss: 0.285
+[23,  1600] loss: 0.291
+[23,  1800] loss: 0.282
+[23,  2000] loss: 0.292
+[23,  2200] loss: 0.282
+[23,  2400] loss: 0.291
+[23,  2600] loss: 0.290
+[23,  2800] loss: 0.300
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 23, accuracy= 0.688086, rmse= 0.481607, auc= 0.718107
+[Epoch 23] time 1650.08s (avg 1205.59s, total 462.1min) | train_loss 0.290425 | val acc 0.688086 rmse 0.481607 auc 0.718107
+[24,   200] loss: 0.287
+[24,   400] loss: 0.294
+[24,   600] loss: 0.300
+[24,   800] loss: 0.290
+[24,  1000] loss: 0.285
+[24,  1200] loss: 0.286
+[24,  1400] loss: 0.284
+[24,  1600] loss: 0.289
+[24,  1800] loss: 0.280
+[24,  2000] loss: 0.289
+[24,  2200] loss: 0.281
+[24,  2400] loss: 0.288
+[24,  2600] loss: 0.288
+[24,  2800] loss: 0.299
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 24, accuracy= 0.694942, rmse= 0.479751, auc= 0.716283
+[Epoch 24] time 1628.23s (avg 1223.20s, total 489.3min) | train_loss 0.288552 | val acc 0.694942 rmse 0.479751 auc 0.716283
+[25,   200] loss: 0.284
+[25,   400] loss: 0.293
+[25,   600] loss: 0.299
+[25,   800] loss: 0.288
+[25,  1000] loss: 0.284
+[25,  1200] loss: 0.285
+[25,  1400] loss: 0.283
+[25,  1600] loss: 0.289
+[25,  1800] loss: 0.280
+[25,  2000] loss: 0.288
+[25,  2200] loss: 0.280
+[25,  2400] loss: 0.286
+[25,  2600] loss: 0.286
+[25,  2800] loss: 0.298
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 25, accuracy= 0.696437, rmse= 0.480625, auc= 0.714176
+[Epoch 25] time 1042.06s (avg 1215.95s, total 506.6min) | train_loss 0.287314 | val acc 0.696437 rmse 0.480625 auc 0.714176
+[26,   200] loss: 0.282
+[26,   400] loss: 0.290
+[26,   600] loss: 0.299
+[26,   800] loss: 0.288
+[26,  1000] loss: 0.281
+[26,  1200] loss: 0.285
+[26,  1400] loss: 0.280
+[26,  1600] loss: 0.286
+[26,  1800] loss: 0.279
+[26,  2000] loss: 0.286
+[26,  2200] loss: 0.277
+[26,  2400] loss: 0.285
+[26,  2600] loss: 0.284
+[26,  2800] loss: 0.296
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 26, accuracy= 0.695954, rmse= 0.480340, auc= 0.713966
+[Epoch 26] time 1035.83s (avg 1209.02s, total 523.9min) | train_loss 0.285598 | val acc 0.695954 rmse 0.480340 auc 0.713966
+[27,   200] loss: 0.279
+[27,   400] loss: 0.288
+[27,   600] loss: 0.297
+[27,   800] loss: 0.286
+[27,  1000] loss: 0.280
+[27,  1200] loss: 0.283
+[27,  1400] loss: 0.280
+[27,  1600] loss: 0.283
+[27,  1800] loss: 0.276
+[27,  2000] loss: 0.284
+[27,  2200] loss: 0.276
+[27,  2400] loss: 0.284
+[27,  2600] loss: 0.283
+[27,  2800] loss: 0.294
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 27, accuracy= 0.693193, rmse= 0.481237, auc= 0.713220
+[Epoch 27] time 1030.92s (avg 1202.43s, total 541.1min) | train_loss 0.283739 | val acc 0.693193 rmse 0.481237 auc 0.713220
+[28,   200] loss: 0.279
+[28,   400] loss: 0.286
+[28,   600] loss: 0.294
+[28,   800] loss: 0.284
+[28,  1000] loss: 0.276
+[28,  1200] loss: 0.281
+[28,  1400] loss: 0.278
+[28,  1600] loss: 0.280
+[28,  1800] loss: 0.274
+[28,  2000] loss: 0.282
+[28,  2200] loss: 0.275
+[28,  2400] loss: 0.281
+[28,  2600] loss: 0.281
+[28,  2800] loss: 0.293
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 28, accuracy= 0.682507, rmse= 0.483591, auc= 0.713289
+[Epoch 28] time 1028.66s (avg 1196.22s, total 558.2min) | train_loss 0.281583 | val acc 0.682507 rmse 0.483591 auc 0.713289
+[29,   200] loss: 0.279
+[29,   400] loss: 0.284
+[29,   600] loss: 0.293
+[29,   800] loss: 0.283
+[29,  1000] loss: 0.275
+[29,  1200] loss: 0.280
+[29,  1400] loss: 0.277
+[29,  1600] loss: 0.280
+[29,  1800] loss: 0.274
+[29,  2000] loss: 0.280
+[29,  2200] loss: 0.274
+[29,  2400] loss: 0.280
+[29,  2600] loss: 0.279
+[29,  2800] loss: 0.291
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 29, accuracy= 0.667391, rmse= 0.486939, auc= 0.713156
+[Epoch 29] time 1038.51s (avg 1190.78s, total 575.5min) | train_loss 0.280558 | val acc 0.667391 rmse 0.486939 auc 0.713156
+[30,   200] loss: 0.274
+[30,   400] loss: 0.282
+[30,   600] loss: 0.291
+[30,   800] loss: 0.281
+[30,  1000] loss: 0.273
+[30,  1200] loss: 0.277
+[30,  1400] loss: 0.274
+[30,  1600] loss: 0.277
+[30,  1800] loss: 0.270
+[30,  2000] loss: 0.278
+[30,  2200] loss: 0.271
+[30,  2400] loss: 0.277
+[30,  2600] loss: 0.277
+[30,  2800] loss: 0.288
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 30, accuracy= 0.660248, rmse= 0.489215, auc= 0.713262
+[Epoch 30] time 1030.98s (avg 1185.46s, total 592.7min) | train_loss 0.277892 | val acc 0.660248 rmse 0.489215 auc 0.713262
+[31,   200] loss: 0.274
+[31,   400] loss: 0.279
+[31,   600] loss: 0.290
+[31,   800] loss: 0.279
+[31,  1000] loss: 0.271
+[31,  1200] loss: 0.276
+[31,  1400] loss: 0.273
+[31,  1600] loss: 0.275
+[31,  1800] loss: 0.269
+[31,  2000] loss: 0.278
+[31,  2200] loss: 0.269
+[31,  2400] loss: 0.275
+[31,  2600] loss: 0.275
+[31,  2800] loss: 0.287
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 31, accuracy= 0.665183, rmse= 0.488125, auc= 0.712864
+[Epoch 31] time 1028.74s (avg 1180.40s, total 609.9min) | train_loss 0.276337 | val acc 0.665183 rmse 0.488125 auc 0.712864
+[32,   200] loss: 0.273
+[32,   400] loss: 0.278
+[32,   600] loss: 0.287
+[32,   800] loss: 0.278
+[32,  1000] loss: 0.270
+[32,  1200] loss: 0.274
+[32,  1400] loss: 0.271
+[32,  1600] loss: 0.274
+[32,  1800] loss: 0.266
+[32,  2000] loss: 0.275
+[32,  2200] loss: 0.267
+[32,  2400] loss: 0.273
+[32,  2600] loss: 0.274
+[32,  2800] loss: 0.283
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 32, accuracy= 0.674339, rmse= 0.486317, auc= 0.711992
+[Epoch 32] time 1033.36s (avg 1175.81s, total 627.1min) | train_loss 0.274460 | val acc 0.674339 rmse 0.486317 auc 0.711992
+[33,   200] loss: 0.271
+[33,   400] loss: 0.275
+[33,   600] loss: 0.284
+[33,   800] loss: 0.277
+[33,  1000] loss: 0.269
+[33,  1200] loss: 0.272
+[33,  1400] loss: 0.270
+[33,  1600] loss: 0.271
+[33,  1800] loss: 0.265
+[33,  2000] loss: 0.273
+[33,  2200] loss: 0.265
+[33,  2400] loss: 0.272
+[33,  2600] loss: 0.273
+[33,  2800] loss: 0.283
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 33, accuracy= 0.682392, rmse= 0.485113, auc= 0.711707
+[Epoch 33] time 1032.36s (avg 1171.46s, total 644.3min) | train_loss 0.272761 | val acc 0.682392 rmse 0.485113 auc 0.711707
+[34,   200] loss: 0.268
+[34,   400] loss: 0.274
+[34,   600] loss: 0.283
+[34,   800] loss: 0.272
+[34,  1000] loss: 0.267
+[34,  1200] loss: 0.269
+[34,  1400] loss: 0.267
+[34,  1600] loss: 0.269
+[34,  1800] loss: 0.264
+[34,  2000] loss: 0.271
+[34,  2200] loss: 0.263
+[34,  2400] loss: 0.269
+[34,  2600] loss: 0.271
+[34,  2800] loss: 0.280
+loading data/Eedi/val_set.json ...
+loaded 17740 validation groups
+validating model...
+epoch= 34, accuracy= 0.686660, rmse= 0.484580, auc= 0.711619
+[Epoch 34] time 1034.95s (avg 1167.44s, total 661.6min) | train_loss 0.270468 | val acc 0.686660 rmse 0.484580 auc 0.711619
+[35,   200] loss: 0.266
+[35,   400] loss: 0.274
+Traceback (most recent call last):
+  File "E:\UECD\train.py", line 441, in <module>
+    train(device)
+  File "E:\UECD\train.py", line 279, in train
+    loss.backward()
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "D:\ProgramData\anaconda3\envs\lerobot\Lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

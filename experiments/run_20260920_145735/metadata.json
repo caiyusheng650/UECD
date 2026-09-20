@@ -1,0 +1,19 @@
+{
+  "run_name": "run_20260920_145735",
+  "start_time": "2026-09-20 14:57:35",
+  "device": "cuda:0",
+  "seed": 2024,
+  "epochs": 70,
+  "batch_size": 256,
+  "topk": 20,
+  "lr": 0.001,
+  "student_n": 17740,
+  "exer_n": 8978,
+  "knowledge_n": 281,
+  "git_commit": "2edf28c374cfd45f1898955703eafb8d5311debc",
+  "git_dirty": true,
+  "python": "3.12.13",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 4070 Ti"
+}
